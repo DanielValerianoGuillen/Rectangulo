@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    class Rectangulo
+    public class Rectangulo
     {
         public Punto punto1 { get; set; }
         public Punto punto2 { get; set; }
