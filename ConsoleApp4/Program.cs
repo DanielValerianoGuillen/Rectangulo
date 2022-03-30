@@ -10,7 +10,7 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ingrese coordenadas");
+            
 
             Rectangulo rectangulo = new Rectangulo();
             
@@ -23,8 +23,8 @@ namespace ConsoleApp4
             rectangulo.x4 = 9;
             rectangulo.y4 = -4;
 
-            Console.WriteLine(rectangulo.Area(rectangulo.x1, rectangulo.y1, rectangulo.x2, rectangulo.y2, rectangulo.x3, rectangulo.y3, rectangulo.x4, rectangulo.y4));
-            Console.WriteLine(rectangulo.Perimetro(rectangulo.x1, rectangulo.y1, rectangulo.x2, rectangulo.y2, rectangulo.x3, rectangulo.y3, rectangulo.x4, rectangulo.y4));
+            Console.WriteLine("EL AREA ES :"+rectangulo.Area(rectangulo.x1, rectangulo.y1, rectangulo.x2, rectangulo.y2, rectangulo.x3, rectangulo.y3, rectangulo.x4, rectangulo.y4));
+            Console.WriteLine("EL PERIMETRO:"+rectangulo.Perimetro(rectangulo.x1, rectangulo.y1, rectangulo.x2, rectangulo.y2, rectangulo.x3, rectangulo.y3, rectangulo.x4, rectangulo.y4));
 
         }
     }

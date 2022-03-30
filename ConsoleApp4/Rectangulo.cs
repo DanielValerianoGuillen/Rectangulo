@@ -13,6 +13,7 @@ namespace ConsoleApp4
         public Punto punto3 { get; set; }
         public Punto punto4 { get; set; }
 
+        //MI PROGRAMA FUNCIONA SOLO FALTA  IMPLEMENTARLA CON LA  CLASE PUNTO
 
         public double x1 { get; set; }
        public double y1 { get; set; }
@@ -23,6 +24,7 @@ namespace ConsoleApp4
        public double x4 { get; set; }
        public double y4 { get; set; }
 
+        
        public double Area(double x1, double y1, double x2, double y2, double x3, double y3, double x4, double y4)
        {
             double area = Math.Abs((x1*y2+x2*y3+x3*y4+x4*y1)-(x1*y4+x4*y3+x3*y2+x2*y1));
